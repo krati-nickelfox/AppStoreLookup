@@ -78,7 +78,8 @@ public class AppStoreLookup {
             let newVersionNum = newVersion[index]
             let oldVersionNum = oldVersion[index]
             if newVersionNum > oldVersionNum {
-                return index == length - 1 ? .optional : .required
+//                return index == length - 1 ? .optional : .required
+                return .required
             }
         }
 
