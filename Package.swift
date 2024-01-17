@@ -4,23 +4,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "AppVersionCheck",
+    name: "AppStoreLookup",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "AppVersionCheck",
-            targets: ["AppVersionCheck"]),
+            name: "AppStoreLookup",
+            targets: ["AppStoreLookup"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "AppVersionCheck"),
+            name: "AppStoreLookup"),
         .testTarget(
-            name: "AppVersionCheckTests",
-            dependencies: ["AppVersionCheck"]),
+            name: "AppStoreLookupTests",
+            dependencies: ["AppStoreLookup"]),
     ]
 )

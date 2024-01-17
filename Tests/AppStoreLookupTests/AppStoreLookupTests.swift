@@ -1,7 +1,7 @@
 import XCTest
-@testable import AppVersionCheck
+@testable import AppStoreLookup
 
-final class AppVersionCheckTests: XCTestCase {
+final class AppStoreLookupTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest
